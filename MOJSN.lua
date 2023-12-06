@@ -1,10 +1,3 @@
-local args = {
-    [1] = "刺 客 免 费 版",
-    [2] = "All"
-}
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-
 msg = Instance.new("Message")
 msg.Parent = game.Workspace
 msg.Text = "刺 客 V 1"

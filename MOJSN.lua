@@ -22,7 +22,7 @@ msg:remove()
 wait(2)
 loadstring(game:HttpGet("https://raw.github.com/WDQi/00SFPro00/main/MS.txt"))()
 ------
-elseif game.PlaceId == 1713065176240 then
+elseif game.PlaceId == 286090429 then
 msg = Instance.new("Message")
 msg.Parent = game.Workspace
 msg.Text = "-正在打开兵工厂-"

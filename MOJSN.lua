@@ -22,6 +22,15 @@ msg:remove()
 wait(2)
 loadstring(game:HttpGet("https://raw.github.com/WDQi/00SFPro00/main/MS.txt"))()
 ------
+elseif game.PlaceId == 1713065176240 then
+msg = Instance.new("Message")
+msg.Parent = game.Workspace
+msg.Text = "-正在打开兵工厂-"
+wait(2)
+msg:remove()
+wait(2)
+loadstring(game:HttpGet("https://raw.github.com/cikeV/-/main/%E5%85%B5%E5%B7%A5.lua"))()
+------
 elseif game.PlaceId == 3101667897 then
 msg = Instance.new("Message")
 msg.Parent = game.Workspace
@@ -94,4 +103,3 @@ msg:remove()
 wait(2)
 loadstring(game:HttpGet("https://raw.github.com/cikeV/-/main/%E9%80%9A%E7%94%A8.lua"))()
 end
-

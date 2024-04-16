@@ -7,7 +7,7 @@ wait(2)
 
 msg = Instance.new("Message")
 msg.Parent = game.Workspace
-msg.Text = "-支持游戏 DOORS 极速传奇 忍者传奇 监狱人生 战争大亨 造船寻宝 伐木大亨 通用功能-"
+msg.Text = "-支持游戏 DOORS 极速传奇 忍者传奇 监狱人生 战争大亨 造船寻宝 伐木大亨 兵工厂 通用功能-"
 wait(5)
 msg:remove()
 wait(5)

@@ -73,7 +73,7 @@ GetKeyCorner.CornerRadius = UDim.new(0, 10)
 GetKeyCorner.Parent = GetKey
 
 GetKey.MouseButton1Click:Connect(function()
-    if TextBox.Text=="2024刺客牛逼" then
+    if TextBox.Text=="2B93-A80D-3E5E-C50D" then
     ScreenGui:Destroy()
     game.StarterGui:SetCore("SendNotification",{Title="卡密系统",Text="卡密校验成功",Icon="rbxassetid://15512382151"})
     game.StarterGui:SetCore("SendNotification",{Title="卡密系统",Text="正在初始",Icon="rbxassetid://15512382151"})
